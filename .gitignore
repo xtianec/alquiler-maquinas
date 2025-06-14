@@ -1,2 +1,16 @@
 backend/node_modules/
 backend/.env
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Build output directories
+dist/
+dist-ssr/
+
+# Temporary files
+*.log
+logs/
+tmp/
+*.tmp
+.DS_Store
