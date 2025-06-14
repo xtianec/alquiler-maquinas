@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './pages/Login';
-import Dashboard from './components/Dashboard';
-import ReservaForm from './components/ReservaForm';
-import ClienteForm from './components/ClienteForm';
-import UsuarioForm from './components/UsuarioForm';
+import Dashboard from './pages/Dashboard';
+import ReservaForm from './pages/ReservaForm';
+import ClienteForm from './pages/ClienteForm';
+import UsuarioForm from './components/usuarioForm';
 import Sidebar from './components/Sidebar';
 
 function App() {
