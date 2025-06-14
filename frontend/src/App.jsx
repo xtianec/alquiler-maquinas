@@ -5,7 +5,7 @@ import Dashboard from './pages/Dashboard';
 import ReservaForm from './pages/ReservaForm';
 import ClienteForm from './pages/ClienteForm';
 import UsuarioForm from './components/usuarioForm';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/sidebar';
 
 function App() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem('user')));
